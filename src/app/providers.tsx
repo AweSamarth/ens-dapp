@@ -27,8 +27,8 @@ import { WagmiProvider } from "wagmi";
 const { wallets } = getDefaultWallets();
 
 const config = getDefaultConfig({
-  appName: "RainbowKit demo",
-  projectId: "YOUR_PROJECT_ID",
+  appName: "ensdapp",
+  projectId: "92fd2fa4bb1a73e46838f4569b1e140b",
   wallets: [
     ...wallets,
     {
